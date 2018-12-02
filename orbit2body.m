@@ -77,3 +77,7 @@ figure (1)
 scatter(positions_planet_x, positions_planet_y)
 hold on
 scatter(positions_star_x, positions_star_y)
+xlabel("x/AU","FontSize",20)
+ylabel("y/AU","FontSize",20)
+title("Orbit plot","FontSize",20)
+axis("equal")
